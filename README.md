@@ -11,11 +11,15 @@ UI Framework
 
 State Management
 - Redux
- - redux-thunk
+ - redux-thunk?
 
 Utility Toolchain
 - Ramda
 
+Testing
+- Ava?
+
 Build
 - TypeScript
 - Parcel
+- eslint?
