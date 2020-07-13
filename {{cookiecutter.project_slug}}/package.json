@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tmex -n typecheck build --layout=11",
+    "dev": "run-p -l typecheck build",
     "build": "parcel ./src/index.html",
     "typecheck": "tsc -w --noEmit",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,7 +22,6 @@
   "devDependencies": {
     "npm-run-all": "^4.1.5",
     "parcel-bundler": "^1.12.4",
-    "tmex": "^1.0.5",
     "typescript": "^3.9.6"
   }
 }
