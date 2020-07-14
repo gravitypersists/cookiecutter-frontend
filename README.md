@@ -30,6 +30,7 @@ Testing
 Build
 - TypeScript
 - Parcel
-- eslint?
+- eslint
+- Prettier
 
 
